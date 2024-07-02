@@ -36,7 +36,7 @@ const SearchBar = () => {
                     </span>
                     <div>
                         <h6>Distance</h6>
-                        <input type="number" placeholder='Distance k/m'  ref={distanceRef}/>
+                        <input type="number" min='0' placeholder='Distance k/m'  ref={distanceRef}/>
                     </div>
                  
                </FormGroup>
@@ -46,7 +46,7 @@ const SearchBar = () => {
                     </span>
                     <div>
                         <h6>Max People</h6>
-                        <input type="number" placeholder='0' ref={maxGroupSizeRef} />
+                        <input type="number" min='0' placeholder='0' ref={maxGroupSizeRef} />
                     </div>
                 
                </FormGroup>
